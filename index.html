@@ -45,7 +45,7 @@
             <img class="w-[700px]" src="./src/img/col-md-6 (1).png" alt="">
         </div>
     </header>
-    <section class="bg-[#252B42] p-[20px]">
+    <section class="bg-[#252B42] p-[20px] w-[100%]">
         <h1
             class="text-[30px] w-[180px] lg:text-[45px] lg:w-[200px] lg:text-[40px] lg:w-[500px] font-bold text-[white] max-w-[1200px] m-auto text-center">
             Better Strategy With Quality Business</h1>
@@ -228,7 +228,7 @@
             </div>
         </div>
         <div class="flex flex-col lg:flex-row lg:flex justify-between lg:mt-[250px] max-w-[1200px] m-auto ">
-            <div>
+            <div class="mt-[50px] ">
                 <h1
                     class="text-[30px] w-[180px] lg:text-[45px] lg:w-[200px] lg:text-[40px] lg:w-[500px] font-bold text-[white]  ">
                     We Have Branches All Over The World</h1>
@@ -238,55 +238,95 @@
                     was Heisenberg, and Born.</p>
             </div>
             <div>
-            <img src="./src/img/col-md-5.png" alt="">
+                <img src="./src/img/col-md-5.png" alt="">
+            </div>
         </div>
+
+        <div
+            class="relative left-[-17px] lg:top-[360px] lg:left-[300px] flex flex-col lg:flex-row w-[350px] lg:w-[1000px] bg-white rounded-[10px] overflow-hidden">
+            <div class="lg:w-[350px] h-[300px] lg:h-auto">
+                <img src="./src/img/media.png" class="hidden lg:block w-full h-full ">
+                <img src="./src/img/media (1).png" alt="" class="lg:hidden">
+            </div>
+
+            <div class="lg:w-[650px] p-[40px] lg:p-[60px]">
+                <h2 class="text-[24px] font-bold text-[#252B42] text-center mb-[40px]">Get A Free Quote Here</h2>
+
+                <form class="flex flex-col gap-[20px]">
+                    <div class="flex flex-col gap-[10px]">
+                        <label class="font-bold text-[#252B42]">Name *</label>
+                        <input type="text" placeholder="Full Name"
+                            class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none">
+                    </div>
+
+                    <div class="flex flex-col gap-[10px]">
+                        <label class="font-bold text-[#252B42]">Email *</label>
+                        <input type="email" placeholder="example@gmail.com"
+                            class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none">
+                    </div>
+
+                    <div class="flex flex-col gap-[10px]">
+                        <label class="font-bold text-[#252B42]">Department *</label>
+                        <select
+                            class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none text-[#737373]">
+                            <option>Please Select</option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-col gap-[10px]">
+                        <label class="font-bold text-[#252B42]">Time *</label>
+                        <select
+                            class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none text-[#737373]">
+                            <option>4:00 Available</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="h-[58px] mt-[20px] bg-[#23A6F0] text-white font-bold rounded-[5px]">
+                        Book Appointment
+                    </button>
+                </form>
+            </div>
         </div>
-        
-         <div class="relative top-[360px] left-[400px] flex flex-col lg:flex-row lg:w-[1000px] bg-white rounded-[10px] overflow-hidden">
-    <div class="lg:w-[350px] h-[300px] lg:h-auto">
-        <img src="./src/img/media.png" 
-             alt="appointment" 
-             class="w-full h-full object-cover">
-    </div>
-
-    <div class="lg:w-[650px] p-[40px] lg:p-[60px]">
-        <h2 class="text-[24px] font-bold text-[#252B42] text-center mb-[40px]">Book Appointment</h2>
-        
-        <form class="flex flex-col gap-[20px]">
-            <div class="flex flex-col gap-[10px]">
-                <label class="font-bold text-[#252B42]">Name *</label>
-                <input type="text" placeholder="Full Name *" 
-                       class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none">
-            </div>
-
-            <div class="flex flex-col gap-[10px]">
-                <label class="font-bold text-[#252B42]">Email address *</label>
-                <input type="email" placeholder="example@gmail.com" 
-                       class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none">
-            </div>
-
-            <div class="flex flex-col gap-[10px]">
-                <label class="font-bold text-[#252B42]">Departement *</label>
-                <select class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none text-[#737373]">
-                    <option>Please Select</option>
-                </select>
-            </div>
-
-            <div class="flex flex-col gap-[10px]">
-                <label class="font-bold text-[#252B42]">Time *</label>
-                <select class="h-[50px] px-[20px] bg-[#F9F9F9] border border-[#E6E6E6] rounded-[5px] outline-none text-[#737373]">
-                    <option>4:00 Available</option>
-                </select>
-            </div>
-
-            <button type="submit" class="h-[58px] mt-[20px] bg-[#23A6F0] text-white font-bold rounded-[5px]">
-                Book Appointment
-            </button>
-        </form>
-    </div>
-</div>
-
     </section>
+    <footer class="bg-[#252B42] text-white p-[40px] lg:p-[80px] mt-[50px] lg:mt-[500px]">
+        <div class="flex flex-col lg:flex-row justify-between max-w-[1200px] m-auto gap-[40px]">
+            <div class="flex flex-col gap-[20px]">
+                <h3 class="text-[35px] font-bold">Get In Touch</h3>
+                <p class="text-[20px] w-[200px]">the quick fox jumps over the lazy dog</p>
+                <div class="w-[150px]">
+                    <img src="./src/img/social media.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[10px]">
+                <h3 class="text-[35px] font-bold mb-[10px]">Company info</h3>
+                <p class="text-[20px]">About Us</p>
+                <p class="text-[20px]">Carrier</p>
+                <p class="text-[20px]">We are hiring</p>
+                <p class="text-[20px]">Blog</p>
+            </div>
+
+            <div class="flex flex-col gap-[10px]">
+                <h3 class="text-[35px] font-bold mb-[10px]">Features</h3>
+                <p class="text-[20px]">Business Marketing</p>
+                <p class="text-[20px]">User Analytic</p>
+                <p class="text-[20px]">Live Chat</p>
+                <p class="text-[20px]">Unlimited Support</p>
+            </div>
+
+            <div class="flex flex-col gap-[10px]">
+                <h3 class="text-[35px] font-bold mb-[10px]">Resources</h3>
+                <p class="text-[20px]">IOS & Android</p>
+                <p class="text-[20px]">Watch a Demo</p>
+                <p class="text-[20px]">Customers</p>
+                <p class="text-[20px]">API</p>
+            </div>
+
+        </div>
+    </footer>
+    <div class=" lg:w-[100%]  p-[20px] bg-[#b1b1b29f]  lg:pl-[100px]">
+      <p class="text-[15px] text-center font-bold  lg:text-[20px] text-[grey]">Made With Love By Figmaland All Right Reserved </p>
+    </div>
 </body>
 
 </html>
